@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xss-page-configs>
+	<xss-page-config>
+		<page>Page1</page>
+		<xss-param-config>
+			<context>BASIC_HTML</context>
+			<param>xyz</param>
+		</xss-param-config>
+	</xss-page-config>
+	<xss-page-config>
+		<page>/xss/xss.jsp</page>
+		<xss-param-config>
+			<context>HTML_ATTRIBUTE</context>
+			<param>xyz</param>
+		</xss-param-config>
+	</xss-page-config>
+</xss-page-configs>
